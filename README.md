@@ -106,6 +106,8 @@ docker run -d --name quick -p 3306:3306 -e MYSQL_RANDOM_ROOT_PASSWORD=yes -e MYS
 
 Finally, copy the `.env.example` file to `.env` and fill in the values for your database.
 
+Please raise pull requests against the `master` branch.
+
 ### Prior Art, Acknowledgements, and Thanks
 
 Quick is backed by [qb](https://www.forgebox.io/view/qb). Without qb, there is no Quick.
